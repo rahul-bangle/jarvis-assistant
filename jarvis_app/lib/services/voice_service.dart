@@ -80,7 +80,6 @@ class VoiceService {
       print("Jarvis is listening (Zero-Latency Mode Active)...");
     }
   }
-  }
 
   Future<String?> stopListeningAndProcess() async {
     final startedAt = _listeningStartedAt;
